@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="main-div">
+        <div class="inner-div">
+            <div class="question">This is our Question?</div>
+            <ul >
+                <li class="li">
+                    <input type="radio" name="answer" id="ans1" class="answer">
+                    <label for="ans1" id="optiona1">Option</label>
+                </li >
+                <li class="li" >
+                    <input type="radio" name="answer" id="ans2" class="answer">
+                    <label for="ans1" id="optiona2">Option</label>
+                </li>
+                <li class="li" >
+                    <input type="radio" name="answer" id="ans3" class="answer">
+                    <label for="ans1" id="optiona3">Option</label>
+                </li>
+                <li class="li" >
+                    <input type="radio" name="answer" id="ans4" class="answer">
+                    <label for="ans1" id="optiona4">Option</label>
+                </li>
+            </ul>
+            <button id="submit" onclick="increBtn()" class="scoreArea" >Submit</button>
+            <div id="showScoreOne" class="scoreArea">
+
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+
+<!--onclick="loadQuestions();-->
